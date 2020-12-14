@@ -1,10 +1,10 @@
 
-public class EmptyRightAngle {
+public class Apatterns {
 	public static void main(String[] args) {
-		int num =5;
+		int num =4;
 		for(int i =0;i<=num ;i++) {
 			for(int j=0;j<=num;j++) {
-				 if(i+j==num || i==num || j==num)
+				 if( j==0 && i>1 ||i==2 || j==4 && i>1 || i+j==2 || i+j==4 && i<j && i!=0 )
 					 System.out.print(" * ");
 				 else
 					 System.out.print("   ");
